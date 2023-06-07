@@ -111,16 +111,18 @@ docker-compose up
 - Languages and Kernels
 
 | Spark | Hadoop | Scala   | [Scala Kernel](https://almond.sh/) | Python | [Python Kernel](https://ipython.org/) | R     | [R Kernel](https://irkernel.github.io/) |
-| ----- | ------ | ------- | ---------------------------------- | ------ | ------------------------------------- | ----- | --------------------------------------- |
-| 3.x   | 3.2    | 2.12.10 | 0.10.9                             | 3.7.3  | 7.19.0                                 | 3.5.2 | 1.1.1                                   |
+| ----- |--------| ------- | ---------------------------------- | ------ | ------------------------------------- | ----- | --------------------------------------- |
+| 3.x   | 3.3    | 2.12.10 | 0.10.9                             | 3.7.3  | 7.19.0                                 | 3.5.2 | 1.1.1                                   |
 | 2.x   | 2.7    | 2.11.12 | 0.6.0                              | 3.7.3  | 7.19.0                                 | 3.5.2 | 1.1.1                                   |
 
 - Apps
 
-| Component      | Version                 | Docker Tag                                           |
-| -------------- | ----------------------- | ---------------------------------------------------- |
-| Apache Spark   | 2.4.0 \| 2.4.4 \| 3.0.0 | **\<spark-version>**                                 |
-| JupyterLab     | 2.1.4 \| 3.0.0          | **\<jupyterlab-version>**-spark-**\<spark-version>** |
+| Component    | Version | Docker Tag                                           |
+|--------------|---------| ---------------------------------------------------- |
+| Apache Spark | 2.4.0 \ | 2.4.4 \| 3.0.0 \| 3.4.0 | **\<spark-version>**                                 |
+| JupyterLab   | 2.1.4 \ | 3.0.0          | **\<jupyterlab-version>**-spark-**\<spark-version>** |
+
+> Note: spark 3.4.0 need to build by manually.
 
 ## <a name="metrics"></a>Metrics
 
